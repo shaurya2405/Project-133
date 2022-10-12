@@ -1,0 +1,21 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.link
+{
+    background-color: white;
+    border-radius: 12px;
+    width: 285px;
+    margin-top: 18px;
+    font-size: medium;
+}
+
+.link:hover
+{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+}

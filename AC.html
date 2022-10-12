@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+        <title>OBJECT DETECTION ON IMAGES - PART 2</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <style>
+        h2
+        {
+           font-size: 30px;
+        }
+        .back
+        {
+            background-color: purple;
+            float: left;
+            width: 80px;
+            border-radius: 10px;
+            margin-top: 0px;
+        }
+        canvas
+        {
+            border-color: black;
+        }
+    </style>
+    <body background="background.png">
+        <center>
+            <li class="back"><a href="index.html">Back</a></li>
+        <h1>AC</h1>
+        <br><br><br><br>
+        <h3 class="btn btn-success" id="status">Status: Detecting Objects</h3>
+        <br><br>
+        <h4 class="btn btn-warning">There is one object from which CoCossd has detected 0 object.</h4>
+        <br><br>
+    </center>
+    <script src="AC.js"></script>
+    </body>
+</html>
